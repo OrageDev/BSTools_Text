@@ -49,6 +49,9 @@ namespace BSTools_Text
 
         }
 
+        //Check if TheText is not null, if it's the case it set the object to false
+        //Create another object an configured it with the new position (x,y,z);
+
         public void TextMoved()
         {
             if (TheText != null)
@@ -73,6 +76,7 @@ namespace BSTools_Text
 
         }
 
+        //As the fonction said, show the text if it's not displayed
         public void ShowText()
         {
 
@@ -110,44 +114,39 @@ namespace BSTools_Text
         //    }
         //}
 
+
+            //In this function, i checked if the Text mooved, it refresh the Text by calling TextMoove();
         public void OnUpdate()
         {
             if (Input.GetKeyDown(KeyCode.KeypadMinus))
             {
-                // Moove UP object
-                //open inventory
+                // PullOff depth 
 
                 z = z - 0.1f;
                 Logger.log.Debug("PullOff depth  (value z: " + z + ")");
                 TextMoved();
-                //text.text = "x :" + x + " | y :" + y + " | z :" + z;
             }
             if (Input.GetKeyDown(KeyCode.KeypadPlus))
             {
-                // Moove UP object
-                //open inventory
+                // Add  depth
 
                 z = z + 0.1f;
                 Logger.log.Debug("Add  depth (value z: " + z + ")");
                 TextMoved();
-                //text.text = "x :" + x + " | y :" + y + " | z :" + z;
             }
             if (Input.GetKeyDown(KeyCode.UpArrow))
             {
                 // Moove UP object
-                //open inventory
 
                 y = y + 0.1f;
                 Logger.log.Debug("Add UP (value y: " + y + ")");
                 TextMoved();
-                //text.text = "x :" + x + " | y :" + y + " | z :" + z;
             }
             if (Input.GetKeyDown(KeyCode.LeftArrow))
             {
                 // Moove Left Object
                 x = x - 0.1f;
                 Logger.log.Debug("Pull off LEFT (value x: " + x + ")");
-                // text.text = "x :" + x + " | y :" + y + " | z :" + z;
                 TextMoved();
             }
             if (Input.GetKeyDown(KeyCode.RightArrow))
@@ -155,7 +154,6 @@ namespace BSTools_Text
                 // Moove Right
                 x = x + 0.1f;
                 Logger.log.Debug("Add RIGHT (value x: " + x + ")");
-                //text.text = "x :" + x + " | y :" + y + " | z :" + z;
                 TextMoved();
             }
             if (Input.GetKeyDown(KeyCode.DownArrow))
@@ -164,7 +162,6 @@ namespace BSTools_Text
 
                 y = y - 0.1f;
                 Logger.log.Debug("Pull off DOWN (value y: " + y + ")");
-                //text.text = "x :" + x + " | y :" + y + " | z :" + z;
                 TextMoved();
             }
             if (Input.GetKeyDown(KeyCode.Space))

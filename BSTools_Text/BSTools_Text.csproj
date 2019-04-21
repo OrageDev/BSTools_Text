@@ -99,6 +99,6 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>copy /Y "$(TargetPath)" "D:\App\Steam\steamapps\common\Beat Saber\Plugins\BSP_test.dll"</PostBuildEvent>
+    <PostBuildEvent>copy /Y "$(TargetPath)" "D:\App\Steam\steamapps\common\Beat Saber\Plugins\BSTools_Text.dll"</PostBuildEvent>
   </PropertyGroup>
 </Project>

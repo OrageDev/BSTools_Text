@@ -40,10 +40,7 @@ namespace CountersPlus
         
         private float ScaleFactor = 10;
         private int count = 0;
-       // public static GameObject CanvasGO;
-       
-            
-        
+     
 
         public Canvas CreateCanvas(Vector3 Position, int counter)
         {
@@ -61,7 +58,6 @@ namespace CountersPlus
         public void CreateTextP(Vector3 anchoredPosition, string givenText, int counter)
         {
             if (CounterCanvas == null) COUNTERCANVAS = CreateCanvas(anchoredPosition,counter);
-           // tmp_text = CanvasGO.AddComponent<TMP_Text>();
             CreateText(COUNTERCANVAS, anchoredPosition, givenText);
         }
 
