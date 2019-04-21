@@ -1,6 +1,6 @@
 ﻿using IPALogger = IPA.Logging.Logger;
 
-namespace BSP_test
+namespace BSTools_Text
 {
     internal static class Logger
     {

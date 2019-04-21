@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 using IPALogger = IPA.Logging.Logger;
 
 
-namespace BSP_test
+namespace BSTools_Text
 {
     public class Plugin : IBeatSaberPlugin
     {

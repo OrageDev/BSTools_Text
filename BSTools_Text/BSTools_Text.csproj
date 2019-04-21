@@ -8,8 +8,8 @@
     <ProjectGuid>{EE1966E1-BD27-4AC9-A620-80BDFCCB145B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>BSP_test</RootNamespace>
-    <AssemblyName>BSP_test</AssemblyName>
+    <RootNamespace>BSTools_Text</RootNamespace>
+    <AssemblyName>BSTools_Text</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <PathMap>$(SolutionDir)=C:\</PathMap>

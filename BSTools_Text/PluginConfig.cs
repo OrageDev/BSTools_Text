@@ -1,4 +1,4 @@
-﻿namespace BSP_test
+﻿namespace BSTools_Text
 {
     internal class PluginConfig
     {
