@@ -1,6 +1,9 @@
 # BSTools_Text
 A simple way to place a Text in Beatsaber environement (Know the position ect)
 
+#Using BSIPA 
+https://github.com/beat-saber-modding-group/BeatSaber-IPA-Reloaded
+
 Features :
 - Display the position of the text in space with the value of x/y/z
 - You can move this object by using Arrow ( up, down, left, right)
